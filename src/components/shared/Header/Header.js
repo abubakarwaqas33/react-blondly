@@ -37,7 +37,7 @@ export default function Header() {
             <div className="container">
                 <Navbar light expand="md">
                     <NavbarBrand href="#">
-                        <img />
+                        <img src="https://loremflickr.com/156/40" className="logo-icon"/>
                     </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
