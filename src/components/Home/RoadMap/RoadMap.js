@@ -3,7 +3,7 @@ import './RoadMap.scss';
 
 function RoadMap() {
     return (
-        <div className="roadmap-main">
+        <div className="roadmap-main container-fluid">
             <div class="section">
                 <div class="wrapper">
                     <div class="intro margin-bottom" id="roadmap">

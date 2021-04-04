@@ -6,8 +6,8 @@
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        padding-top: 55px;
-        padding-bottom: 151px;
+        padding-top: 5.5rem;
+        padding-bottom: 15.1rem;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
@@ -30,12 +30,12 @@
             display: -ms-flexbox;
             display: flex;
             width: 100%;
-            max-width: 1220px;
+            max-width: 122rem;
             margin-right: auto;
             margin-left: auto;
             padding-top: 0px;
-            padding-right: 10px;
-            padding-left: 10px;
+            padding-right: 1rem;
+            padding-left: 1rem;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
             -webkit-flex-direction: column;
@@ -64,7 +64,7 @@
                 display: -webkit-flex;
                 display: -ms-flexbox;
                 display: flex;
-                max-width: 570px;
+                max-width: 57rem;
                 margin-right: auto;
                 margin-left: auto;
                 -webkit-box-orient: vertical;
@@ -79,22 +79,22 @@
                 text-align: center;
             }
             .intro.margin-bottom {
-                margin-bottom: 80px;
+                margin-bottom: 8rem;
                 .title {
                     display: inline-block;
-                    margin-bottom: 26px;
-                    padding: 12px 17px;
-                    border-radius: 4px;
+                    margin-bottom: 2.6rem;
+                    padding: 1.2 1.7rem;
+                    border-radius: 0.4rem;
                     background-color: #ededff;
                     color: #1940b0;
-                    font-size: 16px;
-                    line-height: 16px;
-                    font-weight: 500;
-                    letter-spacing: 2px;
+                    font-size: 1.6rem;
+                    line-height: 1.6rem;
+                    font-weight: 50rem;
+                    letter-spacing: 0.2rem;
                     text-transform: uppercase;
                 }
                 .heading-margin-big {
-                    margin-bottom: 5px;
+                    margin-bottom: 0.5rem;
                     font-family: Avenirltstd, sans-serif;
                     color: #1a1a1a;
                 }
@@ -102,7 +102,7 @@
             .image-2 {
                 display: block;
                 max-width: 97%;
-                margin-top: -49px;
+                margin-top: -4.9rem;
             }
         }
         .button {
@@ -110,10 +110,10 @@
             display                : -webkit-flex;
             display                : -ms-flexbox;
             display                : flex;
-            height                 : 48px;
-            margin-top             : 12px;
-            margin-bottom          : -16px;
-            padding                : 12px 32px;
+            height                 : 4.8rem;
+            margin-top             : 1.2rem;
+            margin-bottom          : -1.6rem;
+            padding                : 1.2rem 3.2rem;
             -webkit-box-pack       : center;
             -webkit-justify-content: center;
             -ms-flex-pack          : center;
@@ -122,8 +122,8 @@
             -webkit-align-items    : center;
             -ms-flex-align         : center;
             align-items            : center;
-            border                 : 1px none transparent;
-            border-radius          : 4px;
+            border                 : 0.1rem none transparent;
+            border-radius          : 0.4rem;
             background-color       : transparent;
             background-image       : -webkit-gradient(linear, left top, right top, from(#1940b0), to(#16a3fe));
             background-image       : linear-gradient(90deg, #1940b0, #16a3fe);
@@ -132,9 +132,9 @@
             transition             : border-color 400ms ease, transform 400ms ease, box-shadow 400ms ease;
             transition             : border-color 400ms ease, transform 400ms ease, box-shadow 400ms ease, -webkit-transform 400ms ease;
             color                  : #fff;
-            font-size              : 14px;
-            line-height            : 24px;
-            font-weight            : 500;
+            font-size              : 1.4rem;
+            line-height            : 2.4rem;
+            font-weight            : 50rem;
             text-align             : center;
             text-decoration        : none;
             text-transform         : uppercase;
