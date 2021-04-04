@@ -5,7 +5,7 @@ import './Banner.scss';
 
 const Banner = () => {
     return (
-        <div className="top-banner-main">
+        <div className="top-banner-main container-fluid">
             <div className="section hero-v3">
                 <div className="wrapper">
                     <div className="w-layout-grid main-grid">

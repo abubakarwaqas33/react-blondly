@@ -5,6 +5,10 @@ html {
   font-size               : 10px;
 }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left : 0;
+}
 
 body {
   font-family     : Roboto, sans-serif;
