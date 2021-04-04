@@ -16,11 +16,11 @@ const Banner = () => {
 
                             <br />
 
-                            <a href="https://app.uniswap.org/#/swap?inputCurrency=0xd2dda223b2617cb616c1580db421e4cfae6a8a85" target="_blank" className="button  w-button ghost">Buy Bondly Tokens →</a>
+                            <a href="#" target="_blank" className="button  w-button ghost">Buy Bondly Tokens →</a>
                             <br />
-                            <a href="https://opensea.io/assets/bccg" target="_blank" className="button  w-button ghost">Bondly's Card game →</a>
+                            <a href="#" target="_blank" className="button  w-button ghost">Bondly's Card game →</a>
                             <br />
-                            <a href="https://opensea.io/assets/polkapets" target="_blank" className="button  w-button ghost">PolkaPets →</a>
+                            <a href="#" target="_blank" className="button  w-button ghost">PolkaPets →</a>
                             <br />
                             <br />
 
