@@ -1,5 +1,10 @@
 .header-main {
-    background-color: var(--color-black);
+    width: 100%;
+//    background-color: var(--color-black);
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    
     .navbar {
         font-family: 'Avenir webfont', sans-serif;
         .navbar-brand {

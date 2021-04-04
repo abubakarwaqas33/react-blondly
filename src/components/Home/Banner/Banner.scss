@@ -1,3 +1,9 @@
+.top-banner-main {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -100;
+}
 .section {
     position               : relative;
     display                : -webkit-box;
@@ -24,7 +30,7 @@
 
 .section.hero-v3 {
     overflow        : hidden;
-    margin-top      : -88px;
+    margin-top      : -60px;
     padding-top     : 200px;
     padding-bottom  : 49px;
     background-image: -webkit-gradient(linear, left top, right top, from(#1940b0), to(#16a3fe));

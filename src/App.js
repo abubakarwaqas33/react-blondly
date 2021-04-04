@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from  './components/Home'
+import DefaultLayout from  './components/DefaultLayout'
 function App() {
   return (
     <div className="App">
-        <Home/>
+      <DefaultLayout/>
     </div>
   );
 }
