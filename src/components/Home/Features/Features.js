@@ -36,9 +36,9 @@ export default function Features() {
                     <div class="container wrapper">
                         <div class="intro margin-bottom">
                             <div className="w-100 text-center">
-                                <div data-w-id="12a85cac-4837-8da5-7ade-f41526ea90a4" class="title">features</div>
+                                <div class="title">features</div>
                             </div>
-                            <h2 data-w-id="12a85cac-4837-8da5-7ade-f41526ea90a6" class="heading-5 text-center">Why Bondly?</h2>
+                            <h2 class="heading-5 text-center">Why Bondly?</h2>
 
                         </div>
                         <div className="row featured-grid">
