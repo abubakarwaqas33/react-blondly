@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Header.scss'
+import logo from '../../../images/logo/logo-horizontal_white.png'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, NavbarText, Button } from 'reactstrap';
 const navLinks = [
     {
@@ -37,7 +38,8 @@ export default function Header() {
             <div className="container">
                 <Navbar light expand="md">
                     <NavbarBrand href="#">
-                        <img src="https://loremflickr.com/156/40" className="logo-icon"/>
+                        <img src={logo} className="logo-icon"/>
+                        
                     </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
@@ -51,7 +53,7 @@ export default function Header() {
                             }
 
                         </Nav>
-                        <NavLink href="#" className="nav-btn btn-sm">Get Blondly</NavLink>
+                        <NavLink href="#" className="nav-btn btn-lg ">Get Blondly</NavLink>
                     </Collapse>
                 </Navbar>
             </div>
