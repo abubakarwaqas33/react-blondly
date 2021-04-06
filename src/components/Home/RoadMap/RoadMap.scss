@@ -82,21 +82,23 @@
                 margin-bottom: 8rem;
                 .title {
                     display: inline-block;
-                    margin-bottom: 2.6rem;
-                    padding: 1.2 1.7rem;
+                    margin-bottom: 1rem;
+                    padding: 1.2rem 1.7rem;
                     border-radius: 0.4rem;
                     background-color: #ededff;
-                    color: #1940b0;
+                    color: var(--b);
                     font-size: 1.6rem;
                     line-height: 1.6rem;
-                    font-weight: 50rem;
+                    font-weight: 500;
                     letter-spacing: 0.2rem;
                     text-transform: uppercase;
+                    color: #1940b0;
                 }
                 .heading-margin-big {
-                    margin-bottom: 0.5rem;
-                    font-family: Avenirltstd, sans-serif;
-                    color: #1a1a1a;
+                    margin-bottom: 1rem;
+                    color: var(--color-black);
+                    font-size: 4rem;
+                    font-weight: 700;
                 }
             }
             .image-2 {

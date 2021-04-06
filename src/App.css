@@ -1,5 +1,4 @@
 html {
-  font-family             : sans-serif;
   -ms-text-size-adjust    : 100%;
   -webkit-text-size-adjust: 100%;
   font-size               : 10px;
@@ -11,7 +10,7 @@ html {
 }
 
 body {
-  font-family     : Roboto, sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color           : #30364d;
   font-size       : 15px;
   line-height     : 24px;
@@ -54,3 +53,9 @@ textarea {
 button {
     overflow: visible;
   }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}

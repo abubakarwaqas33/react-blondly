@@ -8,7 +8,7 @@ export default function DigitalSolution() {
                 <div className="wrapper">
                     <div className="intro margin-bottom">
                         <div className="title">Digital Asset Solutions</div>
-                        <h2 className="heading-margin-big">Products and Industries</h2>
+                        <h2 className="heading-5">Products and Industries</h2>
                     </div>
                     <img src="https://i.imgur.com/M5QWAO9.png" loading="lazy" width="1119"
                         sizes="(max-width: 479px) 94vw, (max-width: 1279px) 95vw, 1119px" alt="" className="image-2" />
