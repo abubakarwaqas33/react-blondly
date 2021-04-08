@@ -33,16 +33,17 @@ const navLinks = [
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
+    const [navbarCollapse, setNavbarCollapse] = React.useState(false);
+
     return (
         <div className="header-main">
-            <div className="container">
+            <div className="container" style={{ paddingLeft: "0", paddingRight: "0" }}>
                 <Navbar light expand="md">
                     <NavbarBrand href="#">
-                        <img src={logo} className="logo-icon"/>
-                        
+                        <img src={logo} className="logo-icon" />
                     </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={isOpen} navbar>
+                    <Collapse isOpen={true} navbar>
                         <Nav className="mr-auto" navbar>
                             {
                                 navLinks && navLinks.map(navLink => {

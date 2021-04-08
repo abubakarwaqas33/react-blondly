@@ -15,28 +15,34 @@ import Team from './Team/Team';
 import RoadMap2 from './RoadMap-2/RoadMap-2';
 import CurrentMarketPlace from './CurrentMarketPlace/CurrentMarketPlace';
 import OurSolution from './OurSolution/OurSolution';
-import ScrollAnimation from 'react-animate-on-scroll';
+import Alerts from './Alerts/Alerts'
+import About from './About/About';
+import Footer from './../shared/Footer/Footer'
+
 import './index.scss'
 
 
 export default function index() {
     return (
         <div className="home">
-
             <Banner />
+            <About/>
             <Features />
+            <Alerts/>
             <CurrentMarketPlace />
             <RoadMap2 />
             <OurSolution />
             <UpcomingProduct />
             <DigitalSolution />
-            <MusicInfluencers />
+            {/* <MusicInfluencers /> */}
             <PolKapets />
             <BCCG />
             <Capital />
+            <Alerts type="alert"/>
             <Stalking />
             <Partner />
             <Team />
+            <Footer/>
         </div>
 
     )
