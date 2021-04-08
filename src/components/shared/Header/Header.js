@@ -4,20 +4,24 @@ import logo from '../../../images/logo/logo-horizontal_white.png'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, NavbarText, Button } from 'reactstrap';
 const navLinks = [
     {
+        name: "About",
+        url: "#about"
+    },
+    {
+        name: "Features",
+        url: "#feature"
+    },
+    {
         name: "Roadmap",
         url: "#roadmap"
     },
     {
-        name: "Recent Success",
-        url: "#success"
-    },
-    {
-        name: "Launchpad",
-        url: "#lauchpad"
-    },
-    {
         name: "Staking",
         url: "#stalking"
+    },
+    {
+        name: "NFT",
+        url: "#nft"
     },
     {
         name: "Partners",
@@ -43,7 +47,7 @@ export default function Header() {
                         <img src={logo} className="logo-icon" />
                     </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={true} navbar>
+                    <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             {
                                 navLinks && navLinks.map(navLink => {

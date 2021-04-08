@@ -2,7 +2,7 @@ import React from 'react'
 import './Capital.scss';
 function Capital() {
     return (
-        <div className="capital-main container-fluid">
+        <div className="capital-main container-fluid" id="nft">
             <div className="section">
                 <div className="wrapper">
                     <div className="intro margin-bottom" id="roadmap">

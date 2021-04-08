@@ -2,7 +2,7 @@ import React from 'react'
 import './Partner.scss';
 function Stalking() {
     return (
-        <div className="Partner-main container-fluid">
+        <div className="Partner-main container-fluid" id="partners">
             <div className="section">
                 <div className="wrapper">
                     <div className="intro margin-bottom" id="roadmap">

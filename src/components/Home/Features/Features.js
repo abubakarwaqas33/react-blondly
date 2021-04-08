@@ -31,7 +31,7 @@ const features = [
 
 export default function Features() {
     return (
-        <div className="features-main">
+        <div className="features-main" id="feature">
             <div className="container-fluid">
                 <div id="features" className="section">
                     <div class="container wrapper">

@@ -7,7 +7,7 @@ function RoadMap2() {
         <div className="roadmap-main container-fluid" id="roadmap">
             <div class="section">
                 <div class="container">
-                    <div class="intro margin-bottom" id="roadmap">
+                    <div class="intro margin-bottom" >
                         <div style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', 'transform-style': 'preserve-3d' }} class="title">Roadmap</div>
                         <h2 style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', 'transform-style': 'preserve-3d' }} class="heading-margin-big">2021 Product and Partnership Roadmap </h2>
                         <p> </p>
