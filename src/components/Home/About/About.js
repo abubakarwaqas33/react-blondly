@@ -7,43 +7,45 @@ export default function About() {
                 <div className="about">
                     <div className="info">
                         <h1 className="display-4 text-center">About the project</h1>
-                        <p class="mb-2 md:mb-3 text-center">Feta token is a project from crypotochefs,
-                        Feta token is a project from crypotochefs, a collective of crypto professionals committed to delivering innovative and class leading crypto products.
-             </p>
+                        <p class="mb-2 md:mb-3 text-center">
+                        SUPERPUNKS are part of a collective of premium NFTs driven to bring more value to its owners, beyond a pure buy and sell for profit, our goal is to incentivise multi use of NFTs, alongside significant benefits from holding on to that very asset
+
+                        </p>
                     </div>
                     <div class="list-group">
-                        <div class="list-group-item">
+                        {/* <div class="list-group-item">
                             <p className="p-2 font-weight-bold no-padding">
-                            We want you to feel️ happy 😊 and secure 🔒 holding Feta token. Crypto is a trustless world, so remember: don’t trust, verify! With Feta token we’ve tried to make that verification as easy as possible
+                                We want you to feel️ happy 😊 and secure 🔒 holding Feta token. Crypto is a trustless world, so remember: don’t trust, verify! With Feta token we’ve tried to make that verification as easy as possible
                             </p>
-                        </div>
+                        </div> */}
                         <div class="list-group-item d-xl-flex d-sm-flex flex-row">
-                            <h1 className="p-2">Audited</h1>
+                            <h1 className="p-2">Staking: How does it work?</h1>
                             <p className="p-2">
-                            We wouldn’t expect you to invest your money in something that hadn’t been audited. That just doesn’t feel right. Feta token is being audited by Dessert Finance. That includes a review of our smart contract and all our associated socials. As soon as the audit is done, you'll be able to find the results and recommendations from the audit in the Audit section below.
+                            Superpunks are super so you have the opportunity to ‘save’ civilians with your NFT. What does that ultimately mean? It means you can, by holding and owning Superpunk, earn tokens. The staking mechanism (“saving”) of civilians is fairly simple, however, we have explained it in more detail below.
 
                             </p>
                         </div>
                         <div class="list-group-item  d-xl-flex d-sm-flex flex-row">
-                            <h1 className="p-2">79% of all tokens in liquidity</h1>
-                            <p className="p-2">We’ve loaded up the liquidity on day one.</p>
+                            <h1 className="p-2">So, what will be the yield for each punk?</h1>
+                            <p className="p-2">In a unique process, governance from Superpunk holders monthly will affect which attributes gain the best yields, with a leaderboard released for it monthly to holders. Stay an active part of the community and vote to ensure your punks attributes achieve the best yields possible! More on this soon.</p>
                         </div>
-                      
+
                         <div class="list-group-item  d-xl-flex d-sm-flex flex-row">
-                            <h1 className="p-2">No large team wallet</h1>
-                            <p className="p-2">We’ve kept 3% of Feta in the team wallet which is reserved for marketing and giveaways. Each member of cryptochefs has 3% too. That’s all. Everything else is in the liquidity pool. Feta isn’t for us, it’s for YOU.</p>
+                            <h1 className="p-2" style={{width: "20%"}}>Rewards</h1>
+                            <p className="p-2">Fortnightly airdrops in the form of rewards, special events, free tokens and yield upgrades all for Superpunk holders</p>
                         </div>
-                      
+
                         <div class="list-group-item  d-xl-flex d-sm-flex flex-row">
-                            <h1 className="p-2">Locked liquidity</h1>
-                            <p className="p-2">New crypto projects need to have liquidity locked in. Once you’ve been with us for a few years you will know we are around for good, but until then we need to earn your trust. That’s something we will focus on every day. We can make a start on that by locking in our investment, and being fully transparent about our decision making process.</p>
+                            <h1 className="p-2" style={{width: "24%"}}>Random Minting</h1>
+                            <p className="p-2">Minting is completely done at random. Whether you are the first to mint or the last, your chances of getting a particular Superpunk is the same.</p>
                         </div>
                         <div class="list-group-item d-xl-flex d-sm-flex flex-row">
-                            <h1 className="p-2">Talk to us!</h1>
-                            <p className="p-2">We’ve built a crypto, but what we really want to build is a community. We want to hear from you. We need to hear from you. We’ve got some big decisions to make, starting with what charities we support first. And that’s up to YOU. So reach out, whenever. You can pretty much guarantee one of us is awake.</p>
+                            <h1 className="p-2">Protect Your City - Governence</h1>
+                            <p className="p-2">Every Superpunk owner has equal voting power and a right to be a part of with further additions and features that will occur on the project. For the governance of the project we are looking to implement governance tokens for the project. More on this soon!
+.</p>
                         </div>
-                      
-                      
+
+
                     </div>
                 </div>
             </div>

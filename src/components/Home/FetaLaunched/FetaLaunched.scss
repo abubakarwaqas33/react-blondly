@@ -1,0 +1,38 @@
+.fetaLaunched-main {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    font-family: DM Sans,sans-serif;
+    .feta-launch {
+        margin-bottom: 4rem;
+        .launch-left {
+            font-size: 2.2rem;
+            text-align: justify;
+            font-weight: 400;
+            color: var(--color-black-dark);
+            padding: 0rem 3rem 0rem 2rem;
+            margin-bottom: 3rem;
+  
+        }
+    }
+    .feta-detail {
+        padding-top: 3rem;
+        .title {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        .info {
+            img {
+                width: 4rem !important;
+                margin-right: 2rem;
+                display: block;
+                margin: auto;
+            }
+            h6{
+                font-size: 2rem;
+            }
+            .icons {
+                margin-top: 2rem;;
+            }
+        }
+    }
+}

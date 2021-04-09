@@ -18,7 +18,7 @@ export default function DefaultLayout() {
     }
     return (
         <div className="default-layout">
-            <Header />
+            {/* <Header /> */}
             <Home />
             {/* <Footer /> */}
         </div>

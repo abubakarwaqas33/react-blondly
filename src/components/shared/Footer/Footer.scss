@@ -2,10 +2,9 @@
     background-color: rgba(232,240,252,1) !important;
     .jumbotron {
         background-color: rgba(232,240,252,1) !important;
-        .text-base {
-            h4 {      
-                font-weight: 400;
-                font-size: 2rem;
+        .left {
+            p {
+                text-align: justify;
             }
         }
     }

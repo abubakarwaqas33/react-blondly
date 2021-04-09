@@ -15,9 +15,11 @@ import Team from './Team/Team';
 import RoadMap2 from './RoadMap-2/RoadMap-2';
 import CurrentMarketPlace from './CurrentMarketPlace/CurrentMarketPlace';
 import OurSolution from './OurSolution/OurSolution';
+import Footer from './../shared/Footer/Footer'
+import FetaLaunched from '../Home/FetaLaunched/FetaLaunched'
 import Alerts from './Alerts/Alerts'
 import About from './About/About';
-import Footer from './../shared/Footer/Footer'
+
 
 import './index.scss'
 
@@ -25,24 +27,30 @@ import './index.scss'
 export default function index() {
     return (
         <div className="home">
-            <Banner />
-            <About/>
-            <Features />
-            <Alerts/>
+            {/* <Banner /> */}
+
+            <FetaLaunched />
+            <RoadMap/>
+            {/* <RoadMap2 /> */}
+            <Alerts />
+            <About />
+            {/* <Alerts type="alert" /> */}
+            <Footer/>
+
+
+            {/* <Features />
             <CurrentMarketPlace />
             <RoadMap2 />
             <OurSolution />
             <UpcomingProduct />
-            <DigitalSolution />
+            <DigitalSolution /> */}
             {/* <MusicInfluencers /> */}
-            <PolKapets />
+            {/* <PolKapets />
             <BCCG />
             <Capital />
-            <Alerts type="alert"/>
             <Stalking />
             <Partner />
-            <Team />
-            <Footer/>
+            <Team /> */}
         </div>
 
     )
