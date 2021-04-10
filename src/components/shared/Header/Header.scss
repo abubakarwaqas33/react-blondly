@@ -1,16 +1,20 @@
 .header-main {
     width: 100%;
 //    background-color: var(--color-black);
-    position: absolute;
+    position: absolute; 
     top: 0;
     z-index: 100;
-    
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+    font-family: "DM Sans", sans-serif;
+
     .navbar {
-        font-family: 'Avenir webfont', sans-serif;
+        padding: 0rem;        
         .navbar-brand {
             padding: 1.2rem 1.4rem;
             .logo-icon {
-                height: 4rem;
+               // height: 4rem;
                 margin-right: 0rem;
               //  margin-bottom: 4rem;
                 padding-top: 0rem;
@@ -18,14 +22,14 @@
             }
         }
         .navbar-nav {
-            padding-top: 1.2rem;
+          //  padding-top: 1.2rem;
             li {
                 a {
                     font-size: 1.8rem;
-                    padding: 0.8rem 1.6rem;
-                    transition: background-color 400ms ease;
-                    color: var(--color-white);
+                    line-height: 24px;
+                    color: #111827;
                     font-weight: 500;
+                    margin-left: 1.5rem;
 
                     &:hover {
                         background-color: rgba(48, 54, 77, 0.1);

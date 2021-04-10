@@ -7,20 +7,20 @@ export default function Footer() {
                 <div className="jumbotron text-center">
                     <div className="row">
                         <div className="col-md-6 left">
-                            {/* <ul class="nav">
+                            <ul class="nav nav-links-top">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                    <a class="nav-link" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                    <a class="nav-link" href="#">Team</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">RoadMap</a>
                                 </li>
-                            </ul> */}
+                            </ul>
                             <p
                             >Superpunks are part of a premium network of
                                 collectibles, focused on building value for its
@@ -30,18 +30,42 @@ export default function Footer() {
                             </p>
                             <ul class="nav">
                                 <li class="nav-item">
-                                    <span class="nav-link no-lr-padding">SUPERPUNKS © 2021</span>
+                                    <span class="nav-link no-lr-padding">SUPERPUNKS © 2021 All Rights Reserved.</span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                                    <span class="nav-link border rounded-circle icons"><i class="fab fa-linkedin-in"></i></span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                    <span class="nav-link border rounded-circle icons"><i class="fab fa-linkedin-in"></i></span>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                    <span class="nav-link border rounded-circle icons"><i class="fab fa-twitter"></i></span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="nav-link border rounded-circle icons"><i class="fab fa-linkedin-in"></i></span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="nav-link border rounded-circle icons"><i class="fab fa-facebook-f"></i></span>
                                 </li>
                             </ul>
+                        </div>
+                        <div className="col-md-6 right">
+                            <div className="join-detail">
+                                <h1 className="join-discord">Join our discord community</h1>
+                                <div class="row sizes">
+                                    {/* <div className="col-lg-7 col-sm-12">
+                                        <p>Superpunks are part of a 
+                                            premium network of collectibles,
+                                            focused on building value</p>
+                                    </div> */}
+                                    <div className="col-lg-12 col-sms-12">
+                                        <p>Superpunks are part of a premium network of
+                                        collectibles, focused on building value for its
+                                        owners through staking</p>
+                                        <button className="btn btn-lg btn-primary rounded-pill">JOIN</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

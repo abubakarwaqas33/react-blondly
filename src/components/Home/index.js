@@ -1,6 +1,5 @@
 import React from 'react';
-import Header from '../shared/Header/Header'
-import Banner from './Banner/Banner';
+import BannerRemove from './Banner-remove/Banner';
 import Features from './Features/Features';
 import RoadMap from './RoadMap/RoadMap';
 import UpcomingProduct from './UpcomingProduct/UpcomingProduct';
@@ -19,6 +18,9 @@ import Footer from './../shared/Footer/Footer'
 import FetaLaunched from '../Home/FetaLaunched/FetaLaunched'
 import Alerts from './Alerts/Alerts'
 import About from './About/About';
+import Banner from './Banner/Banner'
+import HeaderFixed from './../shared/HeaderFixed/HeaderFixed';
+import Header from './../shared/Header/Header'
 
 
 import './index.scss'
@@ -27,8 +29,8 @@ import './index.scss'
 export default function index() {
     return (
         <div className="home">
-            {/* <Banner /> */}
-
+            <Header/>
+            <Banner />
             <FetaLaunched />
             <RoadMap/>
             {/* <RoadMap2 /> */}

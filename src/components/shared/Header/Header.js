@@ -7,33 +7,19 @@ const navLinks = [
         name: "About",
         url: "#about"
     },
+
     {
-        name: "Features",
-        url: "#feature"
+        name: "Alert",
+        url: "#alert"
     },
+
     {
         name: "Roadmap",
         url: "#roadmap"
     },
-    {
-        name: "Staking",
-        url: "#stalking"
-    },
-    {
-        name: "NFT",
-        url: "#nft"
-    },
-    {
-        name: "Partners",
-        url: "#partners"
-    },
-    {
-        name: "Team",
-        url: "#team"
-    },
+
 
 ]
-
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -44,11 +30,11 @@ export default function Header() {
             <div className="container" style={{ paddingLeft: "0", paddingRight: "0" }}>
                 <Navbar light expand="md">
                     <NavbarBrand href="#">
-                        <img src={logo} className="logo-icon" />
+                        <img src="https://www.superpunks.club/images/logo.png" className="logo-icon" />
                     </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
-                        <Nav className="mr-auto" navbar>
+                        <Nav className="ml-auto" navbar>
                             {
                                 navLinks && navLinks.map(navLink => {
                                     return <NavItem>
@@ -56,9 +42,27 @@ export default function Header() {
                                     </NavItem>
                                 })
                             }
+                              <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fab fa-telegram-plane"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <i class="fab fa-discord"></i></a>
+                    </li>
 
                         </Nav>
-                        <NavLink href="#" className="nav-btn btn-lg ">Get Blondly</NavLink>
                     </Collapse>
                 </Navbar>
             </div>

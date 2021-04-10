@@ -1,39 +1,26 @@
-import React from 'react';
-import { ReactSVG } from 'react-svg'
-import Circle from '../../../images/circle-white.svg';
-import './Banner.scss';
+import React from 'react'
+import './Banner.scss'
+import bannerImg from '../../../images/logo/bannerimg.svg'
 
-const Banner = () => {
+export default function Banner() {
     return (
-        <div className="container-fluid top-banner-main">
-            <div className="section hero-v3">
-                <div className="wrapper">
-                    <div className="w-layout-grid main-grid">
-                        <div id="w-node-c8c4404c9e96-335d0bb5" className="intro left">
-                            <div className="title dark-bg">Bondly x NFTs</div>
-                            <h1 className="heading-3">NFT Collection</h1>
-                            <p className="paragraph-2">Bondly will be powering the next generation of digital collectibles with crypto projects, brands and artists.</p>
-
-                            <br />
-
-                            <a href="#" target="_blank" className="button  w-button ghost">Buy Bondly Tokens →</a>
-                            <br />
-                            <a href="#" target="_blank" className="button  w-button ghost">Bondly's Card game →</a>
-                            <br />
-                            <a href="#" target="_blank" className="button  w-button ghost">PolkaPets →</a>
-                            <br />
-                            <br />
-
-                            {/* <a href="https://hecswap.app/" target="_blank" className="button  w-button">HEC BondSwap</a> */}
+        <section id="hero" class="banner-main d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>SUPERPUNKS - NFTs 2.0</h1>
+                        <p>Earn tokens & rewards from holding and owning your NFTs, alongside voting governance and trading cross chain benefits</p>
+                        <div class="d-flex justify-content-center justify-content-lg-start btns-banner ">
+                            <a href="#" class="btn  btn-lg rounded-pill btn-primary ">Buy SUPERPUNKS on Opensea</a>
+                            <a href="#" class="btn  btn-lg rounded-pill btn-primary">Read our Lightpaper</a>
                         </div>
-                        <img src="https://i.imgur.com/VqMsTEG.png" width="400" className="logan" id="w-node-5029343991fb-335d0bb5" data-w-id="a3664690-6bfa-256b-1c7e-5029343991fb" style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', 'transform-style': 'preserve-3d' }} alt="" />
+                    </div>
+                    <div class="col-lg-6" data-aos="zoom-in">
+                        <img src="https://bootstrapmade.com/demo/templates/Appland/assets/img/hero-img.png" class="img-fluid animated" alt="" />
                     </div>
                 </div>
-                <div className="bg-clouds">
-                    <div className="dots"></div><img src={Circle} width="400" className="circle-small"/><img src={Circle} alt="" className="circle-big" /></div>
             </div>
-        </div>
+
+        </section>
     )
 }
-
-export default Banner;

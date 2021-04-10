@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 function RoadMap2() {
     return (
-        <div className="roadmap-main ">
+        <div className="roadmap-main" id="roadmap">
             <div className="container">
                 <div className="info text-center">
                     <h1 className="">Roadmap</h1>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Header from '../shared/Header/Header';
+import HeaderFixed from '../shared/HeaderFixed/HeaderFixed'
 import Footer from '../shared/Footer/Footer'
 import Home from '../Home';
 import Loader from '../shared/Loader/Loader'
@@ -18,9 +18,7 @@ export default function DefaultLayout() {
     }
     return (
         <div className="default-layout">
-            {/* <Header /> */}
             <Home />
-            {/* <Footer /> */}
         </div>
     )
 }

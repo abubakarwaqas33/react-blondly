@@ -20,7 +20,7 @@ const alerts = [
 ]
 export default function Alerts({ type }) {
     return (
-        <div className="alerts-main">
+        <div className="alerts-main" id="alert">
             <div className="container">
                 <div className="jumbotron alert rounded">
                     {
